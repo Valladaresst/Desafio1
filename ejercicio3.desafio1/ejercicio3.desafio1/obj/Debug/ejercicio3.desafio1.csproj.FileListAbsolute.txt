@@ -1,0 +1,7 @@
+C:\Users\edwar\OneDrive\Escritorio\desafio1\ejercicio3.desafio1\ejercicio3.desafio1\bin\Debug\ejercicio3.desafio1.exe.config
+C:\Users\edwar\OneDrive\Escritorio\desafio1\ejercicio3.desafio1\ejercicio3.desafio1\bin\Debug\ejercicio3.desafio1.exe
+C:\Users\edwar\OneDrive\Escritorio\desafio1\ejercicio3.desafio1\ejercicio3.desafio1\bin\Debug\ejercicio3.desafio1.pdb
+C:\Users\edwar\OneDrive\Escritorio\desafio1\ejercicio3.desafio1\ejercicio3.desafio1\obj\Debug\ejercicio3.desafio1.csprojAssemblyReference.cache
+C:\Users\edwar\OneDrive\Escritorio\desafio1\ejercicio3.desafio1\ejercicio3.desafio1\obj\Debug\ejercicio3.desafio1.csproj.CoreCompileInputs.cache
+C:\Users\edwar\OneDrive\Escritorio\desafio1\ejercicio3.desafio1\ejercicio3.desafio1\obj\Debug\ejercicio3.desafio1.exe
+C:\Users\edwar\OneDrive\Escritorio\desafio1\ejercicio3.desafio1\ejercicio3.desafio1\obj\Debug\ejercicio3.desafio1.pdb

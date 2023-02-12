@@ -1,0 +1,36 @@
+            Console.WindowHeight = 25;
+            Console.WindowWidth = 50;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Clear();
+            Console.Title = "Calculo de salario semanal";
+
+            double horas, horasextra, valor, porcentaje;
+            Console.WriteLine("Digite nùmero de horas trabajadas");
+            horas = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite valor de salario establecido");
+            valor = double.Parse(Console.ReadLine());
+            Console.Clear();
+
+
+            if (horas <= 30)
+            {
+                horas = horas * valor;
+                Console.WriteLine("El salario a pagar es de: $" + horas);
+            }
+            else
+            {
+                if (horas>30);
+              {
+                    horas = horas * valor;
+                    Console.WriteLine("Inserte horas extras trabajadas");
+                    horasextra = double.Parse(Console.ReadLine());
+                    Console.Clear();
+
+                porcentaje = ((30 * valor) / 125);
+                horasextra = horasextra * porcentaje;
+                Console.WriteLine("El salario a pagar es de: $" + horas);
+                Console.WriteLine("La bonificaciòn sumada es de: $" + horasextra);
+              }
+            }
+            Console.ReadKey();

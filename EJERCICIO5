@@ -351,7 +351,7 @@ Console.BackgroundColor = ConsoleColor.White;
 Console.WriteLine("\t*                                           *");
 Console.WriteLine("\t*     Este programa fue diseñado por:       *");
 Console.WriteLine("\t*                                           *");
-Console.WriteLine("\t*                Tu nombre                  *");
+Console.WriteLine("\t*                Ruth Quintanilla                  *");
 Console.WriteLine("\t*                                           *");
 Console.Write("\t");
 Console.ForegroundColor = ConsoleColor.White;

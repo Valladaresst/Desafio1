@@ -1,0 +1,74 @@
+Console.WindowHeight = 40;
+            Console.WindowWidth = 70;
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Title = "Calcular cuerpos geometricos...";
+            Console.Write("\nDesafio1");
+            int opcion;
+            Double radio, v, r, h, b, g, a, respuesta;
+            Console.WriteLine("\t<< C A L C U L A D O R A >>");
+            Console.WriteLine("\t<< El Area y Superficie De La Figuras Geometricas>>");
+            Console.WriteLine("\t\t1. ESFERA ");
+            Console.WriteLine("\t\t2. PIRAMIDE ");
+            Console.WriteLine("\t\t3. CONO ");
+            Console.WriteLine("\n");
+            Console.Write("\tDigitar el número correspondiente a la figura: ");
+            opcion = int.Parse(Console.ReadLine());//Capturamos la seleccion del usuario
+            Console.WriteLine("\n");
+            switch (opcion)
+            {
+                case 1:
+                    Console.Write("\tIngresa el valor del volumen : ");
+                    v = Double.Parse(Console.ReadLine());
+                    //ocupamos la formula v=4/3*PI*r^3
+                    r = Math.Pow(v, 3);
+                    Console.WriteLine("\n");
+                    radio = 4 / 3;
+                    radio = radio * Math.PI;
+                    r = v / radio;
+                    radio = r;
+                    Console.Write("\tEl radio de la esfera es: " + Math.Round(radio, 2) + "cm");
+                    break;
+
+                case 2:
+                    Console.Write("\tIngresa el valor volumen: ");
+                    v = Double.Parse(Console.ReadLine());
+                    Console.Write("\tIngresa el valor de la altura: ");
+                    h = Double.Parse(Console.ReadLine());
+                    // ocupamos formula de v = 1 / 3.b.h 
+                    Console.WriteLine("\n");
+                    respuesta = v * 1 / 3;
+                    b = respuesta * h;
+                    Console.Write("\t La base de la piramide es:" + Math.Round(b, 2) + "cm");
+                    break;
+
+                case 3:
+                    Console.Write("\tIngresa el valor generatriz: ");
+                    g = Double.Parse(Console.ReadLine());
+                    Console.Write("\tIngresa el valor de la altura: ");
+                    a = Double.Parse(Console.ReadLine());
+                    // ocupamos formula de a = PI*r*g
+                    Console.WriteLine("\n");
+                    r = Math.PI * g;
+                    r = r / a;
+                    Console.Write("\t El radio del cono es:" + Math.Round(r, 2) + "cm");
+                    break;
+
+                default:
+                    Console.Write("\tOpción no válida, solo acepta del 1 al 3");
+                    break;
+            }
+            Console.WriteLine("\n");
+            Console.Write("\t");
+            Console.WriteLine("*********************************************");
+            Console.WriteLine("\t*                                         *");
+            Console.WriteLine("\t* Este programa fue diseñado por:         *");
+            Console.WriteLine("\t*                                         *");
+            Console.WriteLine("\t*          JAVIER VALLADARES              *");
+            Console.WriteLine("\t*                                         *");
+            Console.Write("\t");
+            Console.WriteLine("*********************************************");
+            Console.Write("\t");
+            Console.WriteLine("--> Fin del Programa");
+            Console.Write("\t");
+            Console.ReadKey();
